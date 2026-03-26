@@ -31,6 +31,8 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions": "^0.0.8",
+    "near-kit": "^0.12.0",
     "prettier": "^3.8.1"
   }
 }
