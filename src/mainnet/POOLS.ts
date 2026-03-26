@@ -1,6 +1,6 @@
 // =====================================
 // POOLS
-export const POOLS = {
+export const MAINNET_POOLS: Record<string, number> = {
   SHIT_WNEAR: 5767,
   SHIT_STNEAR: 6524,
   SHIT_JAMBO: 6525,
