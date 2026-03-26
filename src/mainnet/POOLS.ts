@@ -35,5 +35,9 @@ export const MAINNET_POOLS = {
   JAMBO_ZEC_FEE_60: 6662,
   NBTC_rNEAR_FEE_300: 6664,
   SHIT_NILLIONS_FEE_500_NULL: 6674,
+  SHIT_PUSSY_FEE_20: 6712,
+  SHIT_ZEC_FEE_0: 6789,
+  SHIT_WNEAR_FEE_0: 6793,
+  SHIT_USDT_FEE_0: 6795,
 } as const;
 // =====================================
