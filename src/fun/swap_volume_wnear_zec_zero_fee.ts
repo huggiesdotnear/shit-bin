@@ -7,7 +7,7 @@ import { Near } from "near-kit";
 // the goal of this function is to start and end with wrap near
 // required wnear in rhea contract
 // =====================================
-export async function volume_swap_wnear_shit_zero_fee_fun(
+export async function volume_swap_wnear_zec_zero_fee_fun(
   near: Near,
   rhea_contractId: string,
   amount_in: string,
