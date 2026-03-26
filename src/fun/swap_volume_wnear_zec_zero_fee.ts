@@ -26,7 +26,7 @@ export async function volume_swap_wnear_zec_zero_fee_fun(
         min_amount_out: "0",
       },
       {
-        pool_id: MAINNET_POOLS.SHIT_WNEAR_FEE_0,
+        pool_id: MAINNET_POOLS.WNEAR_ZEC_FEE_0,
         token_in: MAINNET_TOKENS.ZEC,
         token_out: MAINNET_TOKENS.WNEAR,
         min_amount_out: min_amount_out,
