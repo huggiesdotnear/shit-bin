@@ -3,7 +3,7 @@ import {
   wrap_contractId_for_network_env,
   rhea_contractId_for_network_env,
   wrap_near_deposit_fun,
-  ft_transfer_call_fun
+  ft_transfer_call_fun,
 } from "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions";
 import type { AmountInput } from "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions";
 // =====================================
