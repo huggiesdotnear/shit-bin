@@ -27,7 +27,7 @@ complete flow
 1. wrap NEAR
 2. rhea storage deposit
 3. deposit/transfer to rhea
-4. swap
+4. swap, make sure you have the right assests for a swap
 5. withdraw
 6. un wrap
 

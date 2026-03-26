@@ -16,9 +16,7 @@ export const referral_id_for_network_env =
 export function referral_id_for_network_web() {
   const networkId = getStoredNetworkId();
   const referral_id =
-    networkId === "testnet"
-      ? referral_id_testnet
-      : referral_id_mainnet;
+    networkId === "testnet" ? referral_id_testnet : referral_id_mainnet;
   console.log("referral id ", referral_id);
   return referral_id;
 }
