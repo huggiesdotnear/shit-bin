@@ -21,7 +21,7 @@ const WNEAR_IN_SHIT_OUT_RESULT = await ref_get_return_function(
 );
 console.log("SHIT BUY QUOTE:", WNEAR_IN_SHIT_OUT_RESULT);
 console.log("==============================================");
-console.log("WNEAR - SHIT - ZEC :: ARB")
+console.log("WNEAR - SHIT - ZEC - WNEAR :: ARB")
 // GET SHIT BUY QUOTE
 const WNEAR_IN_SHIT_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
   near_kit_env,
