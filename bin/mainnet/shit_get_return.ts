@@ -17,16 +17,18 @@ const WNEAR_IN_SHIT_OUT_RESULT = await ref_get_return_function(
   MAINNET_POOLS.SHIT_WNEAR_FEE_10,
   MAINNET_TOKENS.WNEAR,
   WNEAR_START_AMOUNT,
-  MAINNET_TOKENS.SHIT
+  MAINNET_TOKENS.SHIT,
 );
 console.log("SHIT BUY QUOTE:", WNEAR_IN_SHIT_OUT_RESULT);
 console.log("==============================================");
-console.log("WNEAR - SHIT - ZEC - WNEAR :: ARB")
+// =====================================
+// ARB USING NON ZERO NEAR POOL CAUSE NOT ENOUGH LP IN ZERO FEE
+console.log("WNEAR - SHIT - ZEC - WNEAR :: ARB");
 // GET SHIT BUY QUOTE
 const WNEAR_IN_SHIT_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
   near_kit_env,
   rhea_contractId_for_network_env,
-  MAINNET_POOLS.SHIT_WNEAR_FEE_0,
+  MAINNET_POOLS.SHIT_WNEAR_FEE_10,
   MAINNET_TOKENS.WNEAR,
   WNEAR_START_AMOUNT,
   MAINNET_TOKENS.SHIT,
@@ -49,9 +51,9 @@ const ZEC_IN_WNEAR_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
   SHIT_IN_ZEC_OUT_ZERO_FEE_RESULT,
   MAINNET_TOKENS.WNEAR,
 );
-console.log(ZEC_IN_WNEAR_OUT_ZERO_FEE_RESULT)
+console.log(ZEC_IN_WNEAR_OUT_ZERO_FEE_RESULT);
 console.log("==============================================");
-console.log("WNEAR - ZEC - SHIT - WNEAR :: ARB")
+console.log("WNEAR - ZEC - SHIT - WNEAR :: ARB");
 // GET WNEAR → ZEC QUOTE
 const WNEAR_IN_ZEC_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
   near_kit_env,
@@ -74,12 +76,12 @@ const ZEC_IN_SHIT_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
 const SHIT_IN_WNEAR_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
   near_kit_env,
   rhea_contractId_for_network_env,
-  MAINNET_POOLS.SHIT_WNEAR_FEE_0,
+  MAINNET_POOLS.SHIT_WNEAR_FEE_10,
   MAINNET_TOKENS.SHIT,
   ZEC_IN_SHIT_OUT_ZERO_FEE_RESULT,
   MAINNET_TOKENS.WNEAR,
 );
-console.log(SHIT_IN_WNEAR_OUT_ZERO_FEE_RESULT)
+console.log(SHIT_IN_WNEAR_OUT_ZERO_FEE_RESULT);
 console.log("==============================================");
-console.log("==============================================");
+// console.log("==============================================");
 // =====================================
