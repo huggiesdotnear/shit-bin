@@ -1,0 +1,36 @@
+{
+  "name": "@huggies/shit-bin",
+  "description": "💩 config for shit defi activity",
+  "version": "0.0.1",
+  "homepage": "https://huggies.near.page/",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "browser": "dist/index.js",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huggiesdotnear/shit-bin.git"
+  },
+  "scripts": {
+    "build": "bun run tsc"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "prettier": "^3.8.1"
+  }
+}
