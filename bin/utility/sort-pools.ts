@@ -28,6 +28,8 @@ lines.push("// =====================================");
 lines.push("// THIS FILE IS AUTO SORTED WITH A SCRIPT");
 lines.push("// THIS FILE CONTAINS POOLS WITH PAIR AND FEE INFO");
 lines.push("// DYOR BEFORE TRADING THROUGH ANY POOL");
+lines.push("// _NULL added to pools i am discontinuing or");
+lines.push("// have no liquidity");
 lines.push("// =====================================");
 lines.push("// POOLS");
 lines.push("export const MAINNET_POOLS: Record<string, number> = {");

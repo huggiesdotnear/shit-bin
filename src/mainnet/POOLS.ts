@@ -2,6 +2,8 @@
 // THIS FILE IS AUTO SORTED WITH A SCRIPT
 // THIS FILE CONTAINS POOLS WITH PAIR AND FEE INFO
 // DYOR BEFORE TRADING THROUGH ANY POOL
+// _NULL added to pools i am discontinuing or
+// have no liquidity
 // =====================================
 // POOLS
 export const MAINNET_POOLS: Record<string, number> = {
@@ -32,6 +34,6 @@ export const MAINNET_POOLS: Record<string, number> = {
   SHIT_VOTE_FEE_20: 6620,
   JAMBO_ZEC_FEE_60: 6662,
   NBTC_rNEAR_FEE_300: 6664,
-  SHIT_NILLIONS_FEE_500: 6674,
+  SHIT_NILLIONS_FEE_500_NULL: 6674,
 };
 // =====================================
