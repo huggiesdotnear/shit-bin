@@ -6,6 +6,10 @@ run
 
 ```sh
 bun run bin/index.ts
+
+# utility
+bun run bin/utility/sort-pools.ts
+
 ```
 
 ---
