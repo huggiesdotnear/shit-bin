@@ -8,8 +8,8 @@ import {
 } from "../../src/index";
 // =====================================
 // required wnear in rhea contract
-const amount_in = "2000000000000000000000";
-const min_amount_out = "0"
+const amount_in = "1500000000000000000000000";
+const min_amount_out = "1400000000000000000000000"
 // =====================================
 console.log(
   await volume_swap_wnear_shit_zero_fee_fun(
