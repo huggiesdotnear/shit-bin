@@ -17,6 +17,7 @@ bun run bin/mainnet/shit_get_return.ts
 
 # flow
 bun run bin/mainnet/rhea_storage.ts
+bun run bin/mainnet/rhea_wrap_and_deposit.ts
 ```
 
 ---
