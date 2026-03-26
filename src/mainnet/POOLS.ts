@@ -1,4 +1,8 @@
 // =====================================
+// THIS FILE IS AUTO SORTED WITH A SCRIPT
+// THIS FILE CONTAINS POOLS WITH PAIR AND FEE INFO
+// DYOR BEFORE TRADING THROUGH ANY POOL
+// =====================================
 // POOLS
 export const MAINNET_POOLS: Record<string, number> = {
   AURORA_WNEAR_1395_FEE_30: 1395,
@@ -30,3 +34,4 @@ export const MAINNET_POOLS: Record<string, number> = {
   NBTC_rNEAR: 6664,
   SHIT_NILLIONS: 6674,
 };
+// =====================================

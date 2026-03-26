@@ -37,6 +37,7 @@ for (const [key, value] of sortedEntries) {
   lines.push(`  ${key}: ${value},`);
 }
 lines.push("};");
+lines.push("// =====================================");
 lines.push(""); // trailing newline
 
 fs.writeFileSync(OUTPUT_FILE, lines.join("\n"), "utf8");
