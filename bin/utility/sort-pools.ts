@@ -27,6 +27,10 @@ const sortedEntries = Object.entries(MAINNET_POOLS).sort(
 // generate TS code
 const lines: string[] = [];
 lines.push("// =====================================");
+lines.push("// THIS FILE IS AUTO SORTED WITH A SCRIPT");
+lines.push("// THIS FILE CONTAINS POOLS WITH PAIR AND FEE INFO");
+lines.push("// DYOR BEFORE TRADING THROUGH ANY POOL");
+lines.push("// =====================================");
 lines.push("// POOLS");
 lines.push("export const MAINNET_POOLS: Record<string, number> = {");
 for (const [key, value] of sortedEntries) {
