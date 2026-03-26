@@ -6,7 +6,7 @@
 // have no liquidity
 // =====================================
 // POOLS
-export const MAINNET_POOLS: Record<string, number> = {
+export const MAINNET_POOLS = {
   AURORA_WNEAR_1395_FEE_30: 1395,
   WNEAR_BLACKDRAGON_FEE_30: 4276,
   SHITZU_WNEAR_FEE_30: 4369,
@@ -35,5 +35,5 @@ export const MAINNET_POOLS: Record<string, number> = {
   JAMBO_ZEC_FEE_60: 6662,
   NBTC_rNEAR_FEE_300: 6664,
   SHIT_NILLIONS_FEE_500_NULL: 6674,
-};
+} as const;
 // =====================================

@@ -7,9 +7,10 @@ run
 ```sh
 bun run bin/index.ts
 
-# utility
+# bin/utility
 bun run bin/utility/sort-pools.ts
 
+# bin/mainnet
 ```
 
 ---

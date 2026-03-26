@@ -32,11 +32,11 @@ lines.push("// _NULL added to pools i am discontinuing or");
 lines.push("// have no liquidity");
 lines.push("// =====================================");
 lines.push("// POOLS");
-lines.push("export const MAINNET_POOLS: Record<string, number> = {");
+lines.push("export const MAINNET_POOLS = {");
 for (const [key, value] of sortedEntries) {
   lines.push(`  ${key}: ${value},`);
 }
-lines.push("};");
+lines.push("} as const;");
 lines.push("// =====================================");
 lines.push(""); // trailing newline
 // =====================================
