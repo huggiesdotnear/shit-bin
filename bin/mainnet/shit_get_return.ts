@@ -51,5 +51,35 @@ const ZEC_IN_WNEAR_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
 );
 console.log(ZEC_IN_WNEAR_OUT_ZERO_FEE_RESULT)
 console.log("==============================================");
+console.log("WNEAR - ZEC - SHIT - WNEAR :: ARB")
+// GET WNEAR → ZEC QUOTE
+const WNEAR_IN_ZEC_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
+  near_kit_env,
+  rhea_contractId_for_network_env,
+  MAINNET_POOLS.WNEAR_ZEC_FEE_0,
+  MAINNET_TOKENS.WNEAR,
+  WNEAR_START_AMOUNT,
+  MAINNET_TOKENS.ZEC,
+);
+// GET ZEC → SHIT QUOTE
+const ZEC_IN_SHIT_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
+  near_kit_env,
+  rhea_contractId_for_network_env,
+  MAINNET_POOLS.SHIT_ZEC_FEE_0,
+  MAINNET_TOKENS.ZEC,
+  WNEAR_IN_ZEC_OUT_ZERO_FEE_RESULT,
+  MAINNET_TOKENS.SHIT,
+);
+// GET SHIT → WNEAR QUOTE
+const SHIT_IN_WNEAR_OUT_ZERO_FEE_RESULT = await ref_get_return_function(
+  near_kit_env,
+  rhea_contractId_for_network_env,
+  MAINNET_POOLS.SHIT_WNEAR_FEE_0,
+  MAINNET_TOKENS.SHIT,
+  ZEC_IN_SHIT_OUT_ZERO_FEE_RESULT,
+  MAINNET_TOKENS.WNEAR,
+);
+console.log(SHIT_IN_WNEAR_OUT_ZERO_FEE_RESULT)
+console.log("==============================================");
 console.log("==============================================");
 // =====================================
