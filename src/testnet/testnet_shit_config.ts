@@ -1,7 +1,7 @@
 // =====================================
 // POOLS
 export const TESTNET_POOLS = {
-  SHIT_WNEAR: 2459,
+  SHIT_WNEAR_FEE_10: 2459,
 };
 // =====================================
 // TOKENS
