@@ -2,28 +2,26 @@
 import fs from "fs";
 import path from "path";
 import { pathToFileURL } from "url";
-
+// =====================================
 const INPUT_FILE = path.resolve("src/mainnet/POOLS.ts");
 const OUTPUT_FILE = INPUT_FILE;
-
 const mod = await import(pathToFileURL(INPUT_FILE).href);
-
 // adjust to your actual export name
 const MAINNET_POOLS = (mod as any).MAINNET_POOLS;
-
+// =====================================
 if (!MAINNET_POOLS) {
   throw new Error(
-    `MAINNET_POOLS export not found in ${INPUT_FILE}. Exports: ${Object.keys(mod).join(
-      ", "
-    )}`
+    `MAINNET_POOLS export not found in ${INPUT_FILE}. Exports: ${Object.keys(
+      mod,
+    ).join(", ")}`,
   );
 }
-
+// =====================================
 // sort entries by value
 const sortedEntries = Object.entries(MAINNET_POOLS).sort(
-  ([_k1, v1], [_k2, v2]) => (v1 as number) - (v2 as number)
+  ([_k1, v1], [_k2, v2]) => (v1 as number) - (v2 as number),
 );
-
+// =====================================
 // generate TS code
 const lines: string[] = [];
 lines.push("// =====================================");
@@ -39,7 +37,6 @@ for (const [key, value] of sortedEntries) {
 lines.push("};");
 lines.push("// =====================================");
 lines.push(""); // trailing newline
-
+// =====================================
 fs.writeFileSync(OUTPUT_FILE, lines.join("\n"), "utf8");
-
 console.log(`Sorted MAINNET_POOLS written to ${OUTPUT_FILE}`);
