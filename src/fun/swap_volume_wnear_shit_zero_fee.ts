@@ -11,6 +11,7 @@ export async function volume_swap_wnear_shit_zero_fee_fun(
   near: Near,
   rhea_contractId: string,
   amount_in: string,
+  min_amount_out: string,
   referral_id: string,
 ) {
   const result = await ref_swap_function(
@@ -28,7 +29,7 @@ export async function volume_swap_wnear_shit_zero_fee_fun(
         pool_id: MAINNET_POOLS.SHIT_WNEAR_FEE_0,
         token_in: MAINNET_TOKENS.SHIT,
         token_out: MAINNET_TOKENS.WNEAR,
-        min_amount_out: amount_in,
+        min_amount_out: min_amount_out,
       },
     ],
     referral_id,
