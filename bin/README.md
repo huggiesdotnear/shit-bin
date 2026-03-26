@@ -14,7 +14,25 @@ bun run bin/utility/sort-pools.ts
 
 # bin/mainnet
 bun run bin/mainnet/shit_get_return.ts
+
+# flow
+bun run bin/mainnet/rhea_storage.ts
 ```
+
+---
+
+complete flow
+
+1. wrap NEAR
+2. rhea storage deposit
+3. deposit/transfer to rhea
+4. swap
+5. withdraw
+6. un wrap
+
+some of this can be done form a ui
+like intear wallet
+or huggies.near
 
 ---
 
