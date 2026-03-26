@@ -3,7 +3,7 @@
 // DYOR BEFORE TRADING ANY TOKEN
 // =====================================
 // TOKENS
-export const TOKENS = {
+export const MAINNET_TOKENS = {
   SHIT: "shit-1170.meme-cooking.near",
   // other
   CRANS: "crans.tkn.near",

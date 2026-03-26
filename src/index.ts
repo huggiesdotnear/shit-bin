@@ -3,6 +3,7 @@
 // =====================================
 // mainnet
 export { MAINNET_POOLS } from "./mainnet/POOLS";
+export { MAINNET_TOKENS } from "./mainnet/TOKENS";
 // =====================================
 // testnet
 export {
