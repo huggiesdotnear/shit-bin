@@ -18,6 +18,9 @@ bun run bin/mainnet/shit_get_return.ts
 # flow
 bun run bin/mainnet/rhea_storage.ts
 bun run bin/mainnet/rhea_wrap_and_deposit.ts
+
+# volume
+bun run bin/mainnet/swap_volume_wnear_shit_zero_fee.ts
 ```
 
 ---
