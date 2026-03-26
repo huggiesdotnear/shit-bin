@@ -22,6 +22,7 @@ bun run bin/mainnet/rhea_wrap_and_deposit.ts
 # volume
 bun run bin/mainnet/swap_volume_wnear_shit_zero_fee.ts
 bun run bin/mainnet/swap_volume_wnear_zec_zero_fee.ts
+bun run bin/mainnet/swap_volume_zec_shit_zero_fee.ts
 ```
 
 ---
