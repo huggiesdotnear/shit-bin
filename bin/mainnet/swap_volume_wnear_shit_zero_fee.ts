@@ -15,7 +15,7 @@ console.log(
     near_kit_env,
     rhea_contractId_for_network_env,
     amount_in,
-    referral_id_for_network_env
+    referral_id_for_network_env,
   ),
 );
 // =====================================
