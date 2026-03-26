@@ -34,3 +34,5 @@ bun add @huggies/shit-bin
 ---
 
 This project was created using `bun init` in bun v1.2.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+
+copyright 2026 by sleet.near
