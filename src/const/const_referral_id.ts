@@ -1,7 +1,7 @@
 import {
   MY_ENV_NEAR_networkId,
-  getStoredNetworkId,
-} from "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions";
+} from "@near-kit-tool-box/env";
+import { getStoredNetworkId } from "@near-kit-tool-box/web";
 // =====================================
 const referral_id_testnet = "ref.huggies.testnet";
 const referral_id_mainnet = "ref.huggies.near";

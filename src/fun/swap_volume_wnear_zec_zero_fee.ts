@@ -1,4 +1,4 @@
-import { ref_swap_function } from "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions";
+import { ref_swap_function } from "@near-kit-tool-box/fun";
 import { MAINNET_POOLS } from "../mainnet/POOLS";
 import { MAINNET_TOKENS } from "../mainnet/TOKENS";
 import type { FinalExecutionOutcome } from "near-kit";

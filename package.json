@@ -32,6 +32,8 @@
   },
   "dependencies": {
     "@near-kit-tool-box/env": "^0.0.7",
+    "@near-kit-tool-box/fun": "^0.0.7",
+    "@near-kit-tool-box/web": "^0.0.7",
     "near-kit": "^0.14.0",
     "prettier": "^3.8.3"
   }

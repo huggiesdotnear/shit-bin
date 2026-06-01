@@ -1,8 +1,10 @@
 import {
   near_kit_env,
-  ref_get_return_function,
   rhea_contractId_for_network_env,
-} from "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions";
+} from "@near-kit-tool-box/env";
+import {
+  ref_get_return_function,
+} from "@near-kit-tool-box/fun";
 import { MAINNET_POOLS, MAINNET_TOKENS } from "../../src/index";
 // =====================================
 // START AMOUNT

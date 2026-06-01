@@ -1,9 +1,11 @@
 import {
   near_kit_env,
   rhea_contractId_for_network_env,
+} from "@near-kit-tool-box/env";
+import {
   ref_storage_deposit_function,
-} from "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions";
-import type { AmountInput } from "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions";
+} from "@near-kit-tool-box/fun";
+import type { AmountInput } from "@near-kit-tool-box/fun";
 // =====================================
 // this amount should be enough for basic actions?
 const STORAGE_DEPOSIT_AMOUNT: AmountInput = "0.01 NEAR";

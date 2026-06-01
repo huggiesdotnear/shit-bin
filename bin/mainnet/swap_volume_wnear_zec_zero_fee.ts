@@ -1,7 +1,7 @@
 import {
   near_kit_env,
   rhea_contractId_for_network_env,
-} from "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions";
+} from "@near-kit-tool-box/env";
 import {
   volume_swap_wnear_zec_zero_fee_fun,
   referral_id_for_network_env,
