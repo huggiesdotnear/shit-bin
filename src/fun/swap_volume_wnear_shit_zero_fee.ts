@@ -1,6 +1,6 @@
 import { ref_swap_function } from "@near-kit-tool-box/fun";
-import { MAINNET_POOLS } from "../mainnet/POOLS";
-import { MAINNET_TOKENS } from "../mainnet/TOKENS";
+import { MAINNET_POOLS } from "../const/mainnet/POOLS";
+import { MAINNET_TOKENS } from "../const/mainnet/TOKENS";
 import type { FinalExecutionOutcome } from "near-kit";
 import { Near } from "near-kit";
 // =====================================

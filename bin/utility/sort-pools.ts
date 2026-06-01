@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import { pathToFileURL } from "url";
 // =====================================
-const INPUT_FILE = path.resolve("src/mainnet/POOLS.ts");
+const INPUT_FILE = path.resolve("src/const/mainnet/POOLS.ts");
 const OUTPUT_FILE = INPUT_FILE;
 const mod = await import(pathToFileURL(INPUT_FILE).href);
 // adjust to your actual export name
