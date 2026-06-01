@@ -25,14 +25,14 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "^1.3.14"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^6.0.3"
   },
   "dependencies": {
-    "@sleet-js/near-kit-custom-client-setup-with-other-custom-functions": "^0.0.8",
-    "near-kit": "^0.12.0",
-    "prettier": "^3.8.1"
+    "@near-kit-tool-box/env": "^0.0.7",
+    "near-kit": "^0.14.0",
+    "prettier": "^3.8.3"
   }
 }
