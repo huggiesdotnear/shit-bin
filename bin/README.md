@@ -29,7 +29,7 @@ bun run bin/mainnet/auto_swap_volume_zec_shit_zero_fee.ts
 
 ---
 
-complete flow
+complete flow for swaping
 
 1. wrap NEAR
 2. rhea storage deposit
