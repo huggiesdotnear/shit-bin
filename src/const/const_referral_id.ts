@@ -1,6 +1,4 @@
-import {
-  MY_ENV_NEAR_networkId,
-} from "@near-kit-tool-box/env";
+import { MY_ENV_NEAR_networkId } from "@near-kit-tool-box/env";
 import { getStoredNetworkId } from "@near-kit-tool-box/web";
 // =====================================
 const referral_id_testnet = "ref.huggies.testnet";

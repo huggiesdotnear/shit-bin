@@ -2,7 +2,10 @@
 // HOLDERS
 // =====================================
 // Known accounts mapping
-export const KNOWN_HOLDERS_ACCOUNTS: Record<string, "dev" | "dex" | "vault" | "nft" | "burn"> = {
+export const KNOWN_HOLDERS_ACCOUNTS: Record<
+  string,
+  "dev" | "dex" | "vault" | "nft" | "burn"
+> = {
   "sleet.near": "dev",
   "vault.huggies.near": "vault",
   "growth.huggies.near": "vault",

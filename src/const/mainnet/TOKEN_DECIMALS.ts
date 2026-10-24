@@ -15,7 +15,7 @@ export const MAINNET_TOKEN_DECIMALS = {
   "nbtc.bridge.near": 8,
   "aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near": 18,
   "wrap.near": 24,
-  "near": 24,
+  near: 24,
   "meta-pool.near": 24,
   "lst.rhealab.near": 24,
   "sin-339.meme-cooking.near": 18,

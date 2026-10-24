@@ -2,9 +2,7 @@ import {
   near_kit_env,
   rhea_contractId_for_network_env,
 } from "@near-kit-tool-box/env";
-import {
-  ref_get_return_function,
-} from "@near-kit-tool-box/fun";
+import { ref_get_return_function } from "@near-kit-tool-box/fun";
 import { MAINNET_POOLS, MAINNET_TOKENS } from "../../src/index";
 // =====================================
 // START AMOUNT

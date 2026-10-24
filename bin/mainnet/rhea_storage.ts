@@ -2,9 +2,7 @@ import {
   near_kit_env,
   rhea_contractId_for_network_env,
 } from "@near-kit-tool-box/env";
-import {
-  ref_storage_deposit_function,
-} from "@near-kit-tool-box/fun";
+import { ref_storage_deposit_function } from "@near-kit-tool-box/fun";
 import type { AmountInput } from "@near-kit-tool-box/fun";
 // =====================================
 // this amount should be enough for basic actions?
