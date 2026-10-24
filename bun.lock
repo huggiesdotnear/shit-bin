@@ -5,17 +5,17 @@
     "": {
       "name": "shit-bin",
       "dependencies": {
-        "@near-kit-tool-box/env": "latest",
-        "@near-kit-tool-box/fun": "latest",
-        "@near-kit-tool-box/web": "latest",
-        "near-kit": "latest",
-        "prettier": "latest",
+        "@near-kit-tool-box/env": "^0.0.7",
+        "@near-kit-tool-box/fun": "^0.0.7",
+        "@near-kit-tool-box/web": "^0.0.7",
+        "near-kit": "^0.14.0",
+        "prettier": "^3.8.3",
       },
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.14",
       },
       "peerDependencies": {
-        "typescript": "latest",
+        "typescript": "^6.0.3",
       },
     },
   },
