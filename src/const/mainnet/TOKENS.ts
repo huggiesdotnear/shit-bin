@@ -11,6 +11,7 @@ export const MAINNET_TOKENS = {
   BLACKDRAGON: "blackdragon.tkn.near",
   PUMP: "token.pumpopoly.near",
   ZEC: "zec.omft.near",
+  PUSSY: "pussy.laboratory.jumpfinance.near",
   USDT: "usdt.tether-token.near",
   USDC: "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
   NBTC: "nbtc.bridge.near",

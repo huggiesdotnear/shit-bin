@@ -4,6 +4,8 @@
 // mainnet
 export { MAINNET_POOLS } from "./const/mainnet/POOLS";
 export { MAINNET_TOKENS } from "./const/mainnet/TOKENS";
+export { MAINNET_TOKEN_DECIMALS } from "./const/mainnet/TOKEN_DECIMALS";
+export { KNOWN_HOLDERS_ACCOUNTS } from "./const/mainnet/HOLDERS";
 // =====================================
 // testnet
 export {
