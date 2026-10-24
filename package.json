@@ -1,6 +1,6 @@
 {
   "name": "@huggies/shit-bin",
-  "description": "💩 config for shit defi activity",
+  "description": "💩 constants for shit defi activity",
   "version": "0.0.1",
   "homepage": "https://huggies.near.page/",
   "main": "dist/index.js",
@@ -31,9 +31,9 @@
     "typescript": "^6.0.3"
   },
   "dependencies": {
-    "@near-kit-tool-box/env": "^0.0.7",
-    "@near-kit-tool-box/fun": "^0.0.7",
-    "@near-kit-tool-box/web": "^0.0.7",
+    "@near-kit-tool-box/env": "^0.2.1",
+    "@near-kit-tool-box/fun": "^0.2.1",
+    "@near-kit-tool-box/web": "^0.2.1",
     "near-kit": "^0.14.0",
     "prettier": "^3.8.3"
   }

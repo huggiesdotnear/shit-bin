@@ -1,6 +1,6 @@
 # shit-bin
 
-💩 bin's and config for shit defi activity
+💩 constants for shit defi activity
 
 ---
 
@@ -8,7 +8,7 @@ develop and publish this package
 
 ```bash
 bun install
-bun update --latest
+bun update --latest @near-kit-tool-box/env @near-kit-tool-box/fun @near-kit-tool-box/web
 bun run tsc --noEmit
 # bun run index.ts
 bun run build
