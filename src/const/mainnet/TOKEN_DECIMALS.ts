@@ -22,6 +22,8 @@ export const MAINNET_TOKEN_DECIMALS = {
   "jambo-1679.meme-cooking.near": 18,
   "xpost-1634.meme-cooking.near": 18,
   "vote-1737.meme-cooking.near": 18,
+  "duct-1078.meme-cooking.near": 18,
+  "nearvember-337.meme-cooking.near": 18,
   "n-1813.meme-cooking.near": 18,
   "zolanear-1726.meme-cooking.near": 18,
   "dogshit-1408.meme-cooking.near": 18,

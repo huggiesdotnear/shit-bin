@@ -26,6 +26,8 @@ export const MAINNET_TOKENS = {
   JAMBO: "jambo-1679.meme-cooking.near",
   XPOST: "xpost-1634.meme-cooking.near",
   VOTE: "vote-1737.meme-cooking.near",
+  DUCT: "duct-1078.meme-cooking.near",
+  NEARVEMBER: "nearvember-337.meme-cooking.near",
   NILLIONS: "n-1813.meme-cooking.near",
   ZOLANEAR: "zolanear-1726.meme-cooking.near",
   DOGSHIT: "dogshit-1408.meme-cooking.near",
