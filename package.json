@@ -1,7 +1,7 @@
 {
   "name": "@huggies/shit-bin",
   "description": "💩 constants for shit defi activity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://huggies.near.page/",
   "main": "dist/index.js",
   "module": "dist/index.js",
