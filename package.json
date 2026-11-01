@@ -1,7 +1,7 @@
 {
   "name": "@huggies/shit-bin",
   "description": "💩 constants for shit defi activity",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "homepage": "https://huggies.near.page/",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -14,7 +14,12 @@
     "url": "https://github.com/huggiesdotnear/shit-bin.git"
   },
   "scripts": {
-    "build": "bun run tsc"
+    "typecheck": "tsc --noEmit",
+    "build": "rm -f .tsbuildinfo && bun run tsc",
+    "clean": "rm -rf dist .tsbuildinfo",
+    "version:sync": "bun run scripts/version-sync.ts",
+    "version:dry-run": "bun run scripts/version-sync.ts --dry-run",
+    "release:version": "bun run scripts/release-version.ts"
   },
   "files": [
     "dist/**/*",
