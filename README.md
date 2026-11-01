@@ -23,6 +23,22 @@ bunx prettier . --check
 
 ---
 
+## ENV
+
+copy `.env.example` to `.env` and fill it in
+
+```env
+NEAR_KIT_NETWORK=testnet
+# NEAR_KIT_NETWORK=mainnet
+
+NEAR_KIT_ACCOUNT_ID=your-account.near
+NEAR_KIT_PRIVATE_KEY=ed25519:your-private-key
+```
+
+`NEAR_KIT_NETWORK` must be exactly `mainnet` or `testnet`.
+
+---
+
 ## HOW TO USE
 
 add

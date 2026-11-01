@@ -14,5 +14,8 @@ export {
   TESTNET_TOKEN_DECIMALS,
 } from "./const/testnet/testnet_shit_config";
 // =====================================
-export { referral_id_for_network_env } from "./const/const_referral_id";
+export {
+  referral_id_for_network_env,
+  referral_id_for_network_web,
+} from "./const/const_referral_id";
 // =====================================
