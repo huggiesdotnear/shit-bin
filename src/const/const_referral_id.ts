@@ -1,19 +1,21 @@
-import { NEAR_KIT_NETWORK } from "@near-kit-tool-box/env";
-import { get_stored_network_id } from "@near-kit-tool-box/web";
 // =====================================
-const referral_id_testnet = "ref.huggies.testnet";
-const referral_id_mainnet = "ref.huggies.near";
+// referral id per network
+//
+// Pure data + pure resolver: no imports, no `process.env`, no `localStorage`.
+// Safe to import from any environment (browser, node, edge).
 // =====================================
-// env
-export const referral_id_for_network_env =
-  NEAR_KIT_NETWORK === "testnet" ? referral_id_testnet : referral_id_mainnet;
-// ===========================================
-// web
-export function referral_id_for_network_web() {
-  const networkId = get_stored_network_id();
-  const referral_id =
-    networkId === "testnet" ? referral_id_testnet : referral_id_mainnet;
-  console.log("referral id ", referral_id);
-  return referral_id;
+export const REFERRAL_ID_CONST = {
+  testnet: "ref.huggies.testnet",
+  mainnet: "ref.huggies.near",
+} as const;
+// =====================================
+// Returns the referral id for the given network.
+// Any network that is not "testnet" resolves to mainnet.
+export function referral_id_for_network(
+  network: string | undefined | null,
+): string {
+  return network === "testnet"
+    ? REFERRAL_ID_CONST.testnet
+    : REFERRAL_ID_CONST.mainnet;
 }
-// ===========================================
+// =====================================
